@@ -175,19 +175,19 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 .mega-menu .drop-down-multilevel li.activeTriggerMobile { background: #fafafa; }
  
 /*fullWidth*/
-.header.fullWidth .container-fluid { padding: 0 60px; }
+.header.fullWidth .container-fluid { padding: 0 60px; background-color: black; }
 
 /*light*/
 .header.light {  background: #ffffff; position: relative; box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); z-index: 999; }
 .header.light .topbar ul li { color: #323232; }
 .header.light .topbar ul li a { color: #323232; }
-.header.light .mega-menu .menu-links > li > a { color: #323232; }
+.header.light .mega-menu .menu-links > li > a { color: #525252; }
 .header.light .mega-menu .menu-links > li > a:hover { color: #84ba3f; } 
 .header.light .mega-menu .menu-links > li.active > a { color: #84ba3f; }
 .header.light .topbar { border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 .header.light .search-cart i.icon { color: #323232; }
 .header.light .search-cart i.icon:hover { color: #84ba3f; }
-.header.light .mega-menu.desktopTopFixed .menu-list-items { background: #ffffff; }
+.header.light .mega-menu.desktopTopFixed .menu-list-items { background: black; }
 .header.light .search .search-btn { color: #323232; }
 .header.light .search .search-btn:hover { color: #84ba3f; }
 
@@ -609,7 +609,7 @@ margin-left: -17px; line-height: 50px; }
     			Background  
  **************************************/
 /*images background*/
- .white-bg { background: #fff; }
+ .white-bg { background: #ba893f; }
  .gray-bg { background: #f7f7f7; }
  .dark-gray-bg { background: #666666; }
  .theme-bg { background: #84ba3f; }
