@@ -116,7 +116,7 @@
         <div class="row">
           <div class="col-lg-12 col-md-12">
             <div class="slider-content text-center">
-            <h6 class="theme-color mb-30 mt-10">Click en botón play para activar Música</h6>
+            <h6 class="theme-color mb-30 mt-10">Click en botón play para activar música</h6>
              <audio controls autoplay loop>
                <source src="demo-one-page/adios.mp3" type="audio/mpeg">
             </audio>
@@ -288,7 +288,7 @@ Awards -->
        <div class="owl-carousel" data-nav-arrow="true" data-items="1" data-md-items="1" data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="20">
          <div class="item">
           <div class="book-now pt-60 pl-30" style="background: url(demo-one-page/hotel/images/room/m.jpeg);">
-             <div class="book-now-box justify text-justify" style="opacity: 0.80 ;" >
+             <div class="book-now-box justify text-justify" style="opacity: 0.75 ;" >
 
                <h2 class="text-white mb-15 text-left">Maestra Miriam Peréz Cesar</h2>
                <span class="theme-color">3° "A"</span>
@@ -300,7 +300,7 @@ Awards -->
           </div>
            <div class="item">
           <div class="book-now pt-60 pl-30" style="background: url(demo-one-page/hotel/images/room/lu.jpeg);">
-             <div class="book-now-box justify text-justify" style="opacity: 0.80 ;">
+             <div class="book-now-box justify text-justify" style="opacity: 0.75 ;">
 
                <h2 class="text-white mb-15 text-left">Maestra M. Luisa Guerra Antonio</h2>
                <span class="theme-color">3° "B"</span>
@@ -313,7 +313,7 @@ Awards -->
           </div>
            <div class="item">
           <div class="book-now pt-60 pl-30" style="background: url(demo-one-page/hotel/images/room/y.jpeg);">
-             <div class="book-now-box justify text-justify" style="opacity: 0.80 ;">
+             <div class="book-now-box justify text-justify" style="opacity: 0.75 ;">
 
                <h2 class="text-white mb-15 text-left">Maestra Hitayuyu García Martínez</h2>
                <span class="theme-color">3° "C"</span>
@@ -325,7 +325,7 @@ Awards -->
           </div>
            <div class="item">
           <div class="book-now pt-60 pl-30" style="background: url(demo-one-page/hotel/images/room/i.jpeg);">
-             <div class="book-now-box justify text-justify" style="opacity: 0.80 ;">
+             <div class="book-now-box justify text-justify" style="opacity: 0.75 ;">
 
                <h2 class="text-white mb-15 text-left" >Maestra María Ines Alfonsa Robles Texcucano</h2>
                <span class="theme-color">3° "D"</span>
@@ -730,14 +730,7 @@ Awards -->
   </div>
 </section>
  
-<section>
-     <div class="">
-          <div class="stat">
-    <span class="stat-count">0</span>
-    <p class="stat-detail">Visitantes</p>
-</div>
-        </div>
-</section>
+
 
 <!--=================================
  footer -->
@@ -859,42 +852,6 @@ Awards -->
          })();
  
     </script>
-<!-- <script type="text/javascript">const playSound = function() {
-    let element = document.createElement('div');
-    element.setAttribute('style', '');
-    element.innerHTML = `
-      <audio autoplay loop>
-        <source src="demo-one-page/as.mp3" type="audio/mpeg">
-        <source src=".mp3" type="audio/mpeg">
-      </audio>
-    `;
-    document.body.appendChild(element);
-    document.removeEventListener('click', playSound);
-}
 
-document.addEventListener('click', playSound);
-</script>
--->
-<script type="text/javascript">
-  jQuery(document).ready(function() {
-  function count($this){
-    var current = parseInt($this.html(), 10);
-    current = current + 1; /* Where 1 is increment */
-
-    $this.html(++current);
-    if(current > $this.data('count')){
-      $this.html($this.data('count'));
-    } else {
-      setTimeout(function(){count($this)}, 50);
-    }
-  }
-
-  jQuery(".stat-count").each(function() {
-    jQuery(this).data('count', parseInt(jQuery(this).html(), 10));
-    jQuery(this).html('0');
-    count(jQuery(this));
-  });
-});
-</script>
 </body>
 </html>
